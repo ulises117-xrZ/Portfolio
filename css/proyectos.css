@@ -1,0 +1,133 @@
+h3 {
+  text-align: center;
+  padding: 20px;
+  font-size: 2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.proyectos {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.proyectos .proj1 {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.proyectos .proj1 .neumorfismo {
+  width: 300px;
+  max-height: 50em;
+  border-radius: 50px;
+  box-shadow: 20px 20px 60px #3b4242, -20px -20px 60px #fdffff;
+}
+.proyectos .proj1 .pokemon .imagen {
+  width: auto;
+  border-radius: 50px;
+  height: 20em;
+  background-size: cover;
+  background-image: url("../Img/pokedex-escritorio.jpg");
+}
+.proyectos .proj1 .pokemon .imagen2 {
+  width: auto;
+  border-radius: 50px;
+  height: 20em;
+  background-size: contain;
+  background-image: url("../Img/gogo.jpg");
+}
+.proyectos .proj1 .pokemon .imagen3 {
+  width: auto;
+  border-radius: 50px;
+  height: 20em;
+  background-size: cover;
+  background-image: url("../Img/coffe.jpg");
+}
+.proyectos .proj1 .pokemon .imagen4 {
+  width: auto;
+  border-radius: 50px;
+  height: 20em;
+  background-size: cover;
+  background-image: url("../Img/freelance.jpg");
+}
+@media (min-width: 768px) {
+  .proyectos .proj1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .proyectos .proj1 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.proyectos .proj1 .informacion {
+  position: absolute;
+  top: 0;
+  width: 18.8em;
+  height: 100%;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #292727bd;
+  justify-content: space-evenly;
+  color: #fff;
+}
+@media (min-width: 1024px) {
+  .proyectos .proj1 .informacion {
+    opacity: 0;
+    transition: all 0.6s;
+  }
+  .proyectos .proj1 .informacion:hover {
+    opacity: 1;
+  }
+}
+.proyectos .proj1 .informacion p {
+  font-size: 2em;
+}
+.proyectos .proj1 .informacion ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Cascadia code", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.proyectos .proj1 .informacion .buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.proyectos .proj1 .informacion .buttons button {
+  background: var(--color-principal);
+  border: none;
+  padding: 0.4em 1em;
+  border-radius: 4px;
+}
+.proyectos .proj1 .informacion .buttons button:hover {
+  background: var(--color-nuevo);
+}
+.proyectos .proj1 .informacion .buttons button a {
+  text-decoration: none;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .proyectos .proj1 {
+    display: flex;
+    justify-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .proyectos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .proyectos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*# sourceMappingURL=proyectos.css.map */

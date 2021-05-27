@@ -1,7 +1,7 @@
 :root{
     --color-principal:  #007ef3;
     --color-oscuro: #3F3D56;
-    --color-nuevo: #03DCB0;
+    --color-nuevo: #055bddb9;
     --blanco:#fff;
     --fuente-principal: 'Rubik', sans-serif;
     /* --menos-dark: #707070; */
@@ -17,13 +17,15 @@
 
 /* Menu hamburguesa */
 #sidebar {
+    border-radius:  0 0 30px 0;
     position: fixed;
-    width: 70%; /* si modifico este*/
-    height: 100%;
+    width: 60%; /* si modifico este*/
+    height: 40%;
     background: var(--color-principal);
-    left: -70%; /*tengo que mdificar este tambien a modo que queden iguales*/
+    left: -60%; /*tengo que mdificar este tambien a modo que queden iguales*/
     /* transition: all 500ms linear; */
     transition: all 500ms;
+    z-index: 10;
 
 }
 
@@ -46,9 +48,7 @@
     display: block;
 
 }
-/* #sidebar .eliminar {
-    display: none;
-} */
+
 
 #sidebar ul li{
     text-align: center;
@@ -87,12 +87,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* -webkit-box-shadow: 5px -1px 24px -3px rgba(112,112,112,1);
-    -moz-box-shadow: 5px -1px 24px -3px rgba(112,112,112,1);
-    box-shadow: 5px -1px 24px -3px rgba(112,112,112,1); */
-    /* margin-bottom: 3em; */
-    /* border: 1px solid blue; */
-    /* z-index: 9; */
 }
 
 
@@ -102,9 +96,7 @@
     width: 15em;
     margin-left: 5em;
     display: flex;
-    /* justify-content: center; */
-    /* left: 20em; */
-    /* border: 1px solid red; */
+
 }
 /* De aqui para el menu principal de computadora */
 .cabecera .Listaparapc{
@@ -115,10 +107,7 @@
 /* tablet */
 @media (min-width:768px){
     #sidebar {
-        /* position: fixed; */
         width: 30%;
-        /* height: 100%; */
-        /* background: #333330; */
         left: -30%;
         transition: all 500ms linear;
     }
@@ -160,11 +149,11 @@
     }
     
     .cabecera .Listaparapc li a:hover{
-        border-bottom: 1px solid var(--color-oscuro);
+        border-bottom: 1px solid var(--color-principal);
     }
 
     /* .cabecera .Listaparapc .especial{
-        background: var(--color-nuevo);
+        background: var(--color-n);
         padding: 5px 10px;
         border-radius: 5px;
         color: #fff;

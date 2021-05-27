@@ -1,0 +1,103 @@
+h3
+    text-align: center
+    padding: 20px
+    font-size: 2em
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+.proyectos
+    display: grid
+    grid-template-columns: 1fr
+
+    .proj1
+        position: relative
+        display: flex
+        width: 100%
+        justify-content: center
+        margin-bottom: 2em
+        .neumorfismo
+            width: 300px
+            max-height: 50em
+            border-radius: 50px
+            // background: var(--color-oscuro)
+            box-shadow: 20px 20px 60px #3b4242, -20px -20px 60px #fdffff
+        .pokemon .imagen
+            width: auto
+            border-radius: 50px
+            height: 20em
+            background-size: cover
+            background-image: url('../Img/pokedex-escritorio.jpg')
+        .pokemon .imagen2
+            width: auto
+            border-radius: 50px
+            height: 20em
+            background-size: contain
+            background-image: url('../Img/gogo.jpg')
+
+        .pokemon .imagen3
+            width: auto
+            border-radius: 50px
+            height: 20em
+            background-size: cover
+            background-image: url('../Img/coffe.jpg')
+        .pokemon .imagen4
+            width: auto
+            border-radius: 50px
+            height: 20em
+            background-size: cover
+            background-image: url('../Img/freelance.jpg')
+        @media ( min-width:768px)
+            display: grid
+            grid-template-columns: repeat(2,1fr)
+        @media ( min-width:1024px)
+            // display: grid
+            grid-template-columns: repeat(3, 1fr)
+        .informacion
+            position: absolute
+            // border: 1px solid red
+            top: 0
+            width: 18.8em
+            height: 100%
+            border-radius: 50px
+            display: flex
+            flex-direction: column
+            align-items: center
+            background: #292727bd
+            justify-content: space-evenly
+            color: #fff
+
+            @media (min-width: 1024px)
+                opacity: 0
+                transition: all .6s
+                &:hover
+                    opacity: 1
+            p
+                font-size: 2em
+            ul
+                width: 100%
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: space-evenly
+                font-family: 'Cascadia code', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            .buttons
+                display: flex
+                width: 100%
+                justify-content: space-evenly
+                button
+                    background: var(--color-principal)
+                    border: none
+                    padding: .4em 1em
+                    border-radius: 4px
+                    &:hover
+                        background: var(--color-nuevo)
+                    a
+                        text-decoration: none
+                        // padding: 0 .1em
+                        color: #fff
+        @media (min-width: 768px)
+            display: flex
+            justify-items: center
+    @media (min-width:768px  )
+        display: grid
+        grid-template-columns: repeat(2,1fr)
+    @media (min-width: 1024px)
+        grid-template-columns: repeat(3, 1fr)
