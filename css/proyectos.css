@@ -1,13 +1,15 @@
-h3 {
+.titleProj {
   text-align: center;
   padding: 20px;
   font-size: 2em;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Pattaya", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: var(--color-oscuro);
 }
 
 .proyectos {
   display: grid;
   grid-template-columns: 1fr;
+  background: var(--color-oscuro);
 }
 .proyectos .proj1 {
   position: relative;
@@ -20,7 +22,6 @@ h3 {
   width: 300px;
   max-height: 50em;
   border-radius: 50px;
-  box-shadow: 20px 20px 60px #3b4242, -20px -20px 60px #fdffff;
 }
 .proyectos .proj1 .pokemon .imagen {
   width: auto;
@@ -81,10 +82,12 @@ h3 {
   }
   .proyectos .proj1 .informacion:hover {
     opacity: 1;
+    box-shadow: 20px 20px 60px #353838c0, -20px -20px 60px #d3340c60;
   }
 }
 .proyectos .proj1 .informacion p {
   font-size: 2em;
+  font-family: "Pattaya", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .proyectos .proj1 .informacion ul {
   width: 100%;
