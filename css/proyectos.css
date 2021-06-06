@@ -3,13 +3,14 @@
   padding: 20px;
   font-size: 2em;
   font-family: "Pattaya", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background: var(--color-oscuro);
+  color: var(--color-principal);
+  background: var(--color-claro);
 }
 
 .proyectos {
   display: grid;
   grid-template-columns: 1fr;
-  background: var(--color-oscuro);
+  background: var(--color-claro);
 }
 .proyectos .proj1 {
   position: relative;
@@ -51,6 +52,13 @@
   background-size: cover;
   background-image: url("../Img/freelance.jpg");
 }
+.proyectos .proj1 .pokemon .imagen5 {
+  width: auto;
+  border-radius: 50px;
+  height: 20em;
+  background-size: contain;
+  background-image: url("../Img/Todolist.jpg");
+}
 @media (min-width: 768px) {
   .proyectos .proj1 {
     display: grid;
@@ -73,7 +81,7 @@
   align-items: center;
   background: #292727bd;
   justify-content: space-evenly;
-  color: #fff;
+  color: var(--color-claro);
 }
 @media (min-width: 1024px) {
   .proyectos .proj1 .informacion {

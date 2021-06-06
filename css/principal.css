@@ -11,7 +11,7 @@
   color: var(--color-nuevo);
 }
 .cabecera .cabecera__imagen a h4 span {
-  color: var(--color-principal);
+  color: var(--menos-dark);
 }
 
 .Principal {
@@ -20,6 +20,7 @@
   justify-content: center;
   align-items: center;
   background: var(--color-claro);
+  color: var(--menos-dark);
 }
 @media (min-width: 1024px) {
   .Principal {
@@ -59,6 +60,7 @@
   text-align: left;
   font-family: "Roboto Mono", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
+  color: var(--menos-dark);
 }
 .Principal .Principal__contenedor .contenedor__elementos h3 span {
   color: var(--color-nuevo);
@@ -75,7 +77,7 @@
   font-size: 1.5em;
 }
 .Principal .Principal__contenedor .contenedor__elementos button a {
-  color: #fff;
+  color: var(--color-claro);
 }
 .Principal .Principal__contenedor .contenedor__elementos button:hover {
   background: var(--color-nuevo);
@@ -111,7 +113,7 @@
   justify-content: space-evenly;
 }
 .meSkills .contenedor .about {
-  color: #fff;
+  color: var(--color-claro);
 }
 .meSkills .contenedor .about h3 {
   font-weight: 700;
@@ -141,7 +143,7 @@
   justify-content: space-evenly;
 }
 .meSkills .contenedor .skills .skill {
-  color: #fff;
+  color: var(--color-claro);
   padding: 2em;
   font-family: "Cascadia code", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 1.2em;
@@ -153,6 +155,9 @@
   text-align: center;
   padding: 1em 0;
   font-family: "Pattaya", "Cascadia code", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.meSkills .contenedor .skills .skill ul {
+  text-align: center;
 }
 .meSkills .contenedor .skills .skill ul li {
   font-family: "Cascadia code", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -190,6 +195,7 @@
   font-family: var(--fuente-principal);
   font-size: 2em;
   opacity: 0;
+  color: var(--color-principal);
 }
 @media (min-width: 1024px) {
   .linea {
@@ -207,13 +213,14 @@
   padding: 20px;
   font-size: 2em;
   font-family: "Pattaya", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background: var(--color-oscuro);
+  color: var(--color-principal);
+  background: var(--color-claro);
 }
 
 .proyectos {
   display: grid;
   grid-template-columns: 1fr;
-  background: var(--color-oscuro);
+  background: var(--color-claro);
 }
 .proyectos .proj1 {
   position: relative;
@@ -255,6 +262,13 @@
   background-size: cover;
   background-image: url("../Img/freelance.jpg");
 }
+.proyectos .proj1 .pokemon .imagen5 {
+  width: auto;
+  border-radius: 50px;
+  height: 20em;
+  background-size: contain;
+  background-image: url("../Img/Todolist.jpg");
+}
 @media (min-width: 768px) {
   .proyectos .proj1 {
     display: grid;
@@ -277,7 +291,7 @@
   align-items: center;
   background: #292727bd;
   justify-content: space-evenly;
-  color: #fff;
+  color: var(--color-claro);
 }
 @media (min-width: 1024px) {
   .proyectos .proj1 .informacion {

@@ -4,7 +4,7 @@
     --color-nuevo: #F65B3F;
     --blanco:#fff;
     --fuente-principal: 'Cascadia code','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    /* --menos-dark: #707070; */
+    --menos-dark: #3F3D56;
 }
 
 *{
@@ -135,7 +135,6 @@ body{
         width: 100%;
         background: var(--color-claro);
         padding: 5px;
-        margin-top: 2em;
         justify-content: space-around;
     }
 
@@ -173,16 +172,12 @@ body{
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    background: #e5e5e5;
-}
-
 
 /* Formulario de contacto */
 .contactame{
     max-width: 800px;
     width: 90%;
+    font-family: var(--fuente-principal);
     margin: auto;
     padding: 40px;
 
