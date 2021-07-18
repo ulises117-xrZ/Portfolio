@@ -175,7 +175,6 @@
 }
 @media (min-width: 768px) {
   .meSkills {
-    height: 80vh;
     width: 100vw;
   }
 }
