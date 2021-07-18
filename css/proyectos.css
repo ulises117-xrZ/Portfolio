@@ -59,6 +59,20 @@
   background-size: contain;
   background-image: url("../Img/Todolist.jpg");
 }
+.proyectos .proj1 .pokemon .imagen6 {
+  width: auto;
+  border-radius: 50px;
+  height: 20em;
+  background-size: cover;
+  background-image: url("../Img/drumKIt.png");
+}
+.proyectos .proj1 .pokemon .imagen1R {
+  width: auto;
+  border-radius: 50px;
+  height: 20em;
+  background-size: cover;
+  background-image: url("../Img/link-tree.png");
+}
 @media (min-width: 768px) {
   .proyectos .proj1 {
     display: grid;
