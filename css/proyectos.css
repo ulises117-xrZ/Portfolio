@@ -12,7 +12,6 @@
   grid-template-columns: 1fr;
   background: var(--color-claro);
 }
-
 .proyectos .proj1 {
   position: relative;
   display: flex;
@@ -20,13 +19,11 @@
   justify-content: center;
   margin-bottom: 2em;
 }
-
 .proyectos .proj1 .neumorfismo {
   width: 300px;
   max-height: 50em;
   border-radius: 50px;
 }
-
 .proyectos .proj1 .pokemon .imagen {
   width: auto;
   border-radius: 50px;
@@ -34,7 +31,6 @@
   background-size: cover;
   background-image: url("../Img/pokedex-escritorio.jpg");
 }
-
 .proyectos .proj1 .pokemon .imagen2 {
   width: auto;
   border-radius: 50px;
@@ -42,7 +38,6 @@
   background-size: contain;
   background-image: url("../Img/gogo.jpg");
 }
-
 .proyectos .proj1 .pokemon .imagen3 {
   width: auto;
   border-radius: 50px;
@@ -50,7 +45,6 @@
   background-size: cover;
   background-image: url("../Img/coffe.jpg");
 }
-
 .proyectos .proj1 .pokemon .imagen4 {
   width: auto;
   border-radius: 50px;
@@ -58,7 +52,6 @@
   background-size: cover;
   background-image: url("../Img/freelance.jpg");
 }
-
 .proyectos .proj1 .pokemon .imagen5 {
   width: auto;
   border-radius: 50px;
@@ -66,7 +59,6 @@
   background-size: contain;
   background-image: url("../Img/Todolist.jpg");
 }
-
 .proyectos .proj1 .pokemon .imagen6 {
   width: auto;
   border-radius: 50px;
@@ -74,7 +66,6 @@
   background-size: cover;
   background-image: url("../Img/drumKIt.png");
 }
-
 .proyectos .proj1 .pokemon .imagen1R {
   width: auto;
   border-radius: 50px;
@@ -82,7 +73,13 @@
   background-size: cover;
   background-image: url("../Img/link-tree.png");
 }
-
+.proyectos .proj1 .pokemon .imagen2R {
+  width: auto;
+  border-radius: 50px;
+  height: 20em;
+  background-size: contain;
+  background-image: url("../Img/crud.png");
+}
 @media (min-width: 768px) {
   .proyectos .proj1 {
     display: grid;
@@ -107,13 +104,11 @@
   justify-content: space-evenly;
   color: var(--color-claro);
 }
-
 @media (min-width: 1024px) {
   .proyectos .proj1 .informacion {
     opacity: 0;
     transition: all 0.6s;
   }
-
   .proyectos .proj1 .informacion:hover {
     opacity: 1;
     box-shadow: 20px 20px 60px #353838c0, -20px -20px 60px #d3340c60;
@@ -123,7 +118,6 @@
   font-size: 2em;
   font-family: "Pattaya", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
 .proyectos .proj1 .informacion ul {
   width: 100%;
   display: flex;
@@ -132,29 +126,24 @@
   justify-content: space-evenly;
   font-family: "Cascadia code", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
 .proyectos .proj1 .informacion .buttons {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
 }
-
 .proyectos .proj1 .informacion .buttons button {
   background: var(--color-principal);
   border: none;
   padding: 0.4em 1em;
   border-radius: 4px;
 }
-
 .proyectos .proj1 .informacion .buttons button:hover {
   background: var(--color-nuevo);
 }
-
 .proyectos .proj1 .informacion .buttons button a {
   text-decoration: none;
   color: #fff;
 }
-
 @media (min-width: 768px) {
   .proyectos .proj1 {
     display: flex;
@@ -172,7 +161,5 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
-/*# sourceMappingURL=proyectos.css.map */
-/*# sourceMappingURL=proyectos.css.map */
 
 /*# sourceMappingURL=proyectos.css.map */
