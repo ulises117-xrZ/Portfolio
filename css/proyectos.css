@@ -80,6 +80,13 @@
   background-size: contain;
   background-image: url("../Img/crud.png");
 }
+.proyectos .proj1 .pokemon .imagen3R {
+  width: auto;
+  border-radius: 50px;
+  height: 20em;
+  background-size: cover;
+  background-image: url("../Img/gift.png");
+}
 @media (min-width: 768px) {
   .proyectos .proj1 {
     display: grid;
